@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display:  flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #1F2937;
+    font-size: 18px;
+}
+
+.header-logo h2{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link-container {
+    display: flex;
+    gap: 15px
+}
+
+.link-container a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
